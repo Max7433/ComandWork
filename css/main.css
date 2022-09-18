@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: white;
+  background-color: gray;
   color: wheat;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -75,4 +75,67 @@ img {
   .container {
     width: 1200px;
   }
+}
+
+.hero-bloc {
+  position: absolute;
+  height: 700px;
+  max-width: 1920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../images/foto-bgc.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bloc-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  left: 0%;
+  top: 7%;
+  background-color: rgb(34, 23, 34);
+  height: 90vh;
+  width: 90%;
+  -webkit-clip-path: polygon(0% 0%, 66% 0, 89% 50%, 65% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 66% 0, 89% 50%, 65% 100%, 0% 100%);
+  z-index: 1;
+}
+
+.bloc-content__titel {
+  padding-left: 60px;
+  padding-top: 70px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-avatar {
+  margin-left: 90px;
+  margin-top: 40px;
+}
+
+.hero-btn {
+  color: black;
+  border: 0px;
+  border-radius: 6px;
+  margin-top: 110px;
+  margin-left: 90px;
+  width: 150px;
+  height: 40px;
+}
+
+.bloc-text {
+  position: relative;
+  right: 0%;
+  top: 40%;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 600px;
 }/*# sourceMappingURL=main.css.map */
